@@ -3,9 +3,21 @@
 html,
 body {
   background-color: #ff7a7a;
+  font-family: 'Poppins'
   text-align: center;
 }
 
 .title {
   font-family: 'Silkscreen';
+}
+
+.return {
+  color: #f54242;
+  text-decoration: none;
+  transition: all 0.5s;
+}
+
+.return:hover {
+  color: #ff7878
+  transition: all 0.5s;
 }
