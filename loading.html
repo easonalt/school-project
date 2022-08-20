@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Project | Home</title>
+    <link rel="stylesheet" href="/styles/style-loading.css">
+    <link rel="icon" type="image/x-icon" href="/assets/icon.ico">
+  </head>
+  <body>
+    <div>
+      <img class="background" src="/assets/loading-bar-invert.png">
+    </div>
+    <div>
+      <img class="background load" src="/assets/loading-bar.png">
+    </div>
+  </body>
+  <script>
+    const queryString = window.location.search;
+    const urlParams = new URLSearchParams(queryString);
+    const short_code = urlParams.get('r')
+
+    function redirect(){
+        setTimeout(function() {
+            if (short_code !== null || short_code !== "") {
+                window.location.replace("/home")
+            } else {
+                window.location.replace("/home")
+            }
+        }, 6000);
+    }
+
+    window.onload = redirect()
+  </script>
+</html>

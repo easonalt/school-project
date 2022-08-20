@@ -1,0 +1,36 @@
+@import url('/style.css');
+
+.header {
+    font-family: 'Poppins';
+    text-align: left;
+    vertical-align: middle;
+    position: fixed; 
+    top: 0;
+    left: 0;
+    background-color: #0b0b0bea;
+    color: white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 50px;
+    min-width: calc(100% - 50px);
+    font-size: 1.5em;
+    z-index: 50;
+}
+
+.header img {
+    width: 130px;
+}
+
+.header a {
+    text-decoration: none;
+    color: rgb(193, 193, 193);
+    padding-left: 25px;
+    vertical-align: 10px;
+    font-size: 0.9em;
+    transition: all 0.2s;
+}
+
+.header a:hover {
+    color: rgb(255, 255, 255);
+    transition: all 0.2s;
+}

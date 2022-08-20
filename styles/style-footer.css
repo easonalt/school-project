@@ -1,0 +1,31 @@
+.footer {
+    position: absolute;
+    left: 0;
+    background-color: #0b0b0b;
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    min-width: calc(100%);
+    margin-top: 100px;
+}
+
+.footer img {
+    width: 200px;
+}
+
+.footer .link {
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 0.8em;
+    text-decoration: none;
+    color: rgb(174, 174, 174);
+}
+
+.footer .link:hover {
+    color: rgb(217, 217, 217);
+}
+
+.footer p {
+    color: rgb(216, 216, 216);
+    font-size: 0.8em;
+}

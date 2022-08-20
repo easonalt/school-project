@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Silkscreen&display=swap');
+@import url('/style.css');
+
+html,
+body {
+  font-family: 'Poppins', Arial;
+  background: url('/assets/bg/mondstadt.jpg');
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.region {   
+  left: 0;
+  min-width: 100%;
+  min-height: 150px;
+  padding: 50px;
+}
+
+.mondstadt {
+  background: #bbffaeb2;
+}
+
+.liyue {
+  background: #ffa387b2;
+}
+
+.inazuma {
+  background: #e987ffb2;
+}
+
+.icon {
+  width: 30px;
+}

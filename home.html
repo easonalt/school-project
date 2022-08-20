@@ -1,0 +1,64 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Project | Home</title>
+    <link rel="stylesheet" href="/styles/style-home.css">
+    <link rel="stylesheet" href="/styles/style-footer.css">
+    <link rel="stylesheet" href="/styles/style-header.css">
+    <link rel="icon" type="image/x-icon" href="/assets/icon.ico">
+  </head>
+  <body>
+    <!-- Visual -->
+    <audio autoplay loop id="bgm">
+      <source src="/assets/audio/theme.mp3" type="audio/mpeg">
+    </audio>
+    <video class="background" autoplay muted loop>
+      <source src="/assets/bg/main.mp4" type="video/mp4">
+    </video>
+    <!-- Main Container -->
+    <div class="container" style="padding-top: 160px">
+      <!-- Header -->
+      <div class="header">
+        <img src="/assets/logo-white.png" onclick="location.href = '/home'">
+        <a href="/characters">Characters</a>
+        <a href="/map">Map</a>
+        <a href="/story">Story</a>
+      </div>
+      <!-- Content -->
+      <div class="content">
+        <div class="gallery img-1">
+          <img src="/assets/gif/zhongli.gif"><br><br>
+          <span class="type">Character</span><br>
+          <span class="title">Zhongli</span><br><br>
+          <a href="/characters/zhongli">View Page ></a>
+        </div>
+        <div class="gallery img-2">
+          <img src="/assets/gif/childe.gif"><br><br>
+          <span class="type">Character</span><br>
+          <span class="title">Childe</span><br><br>
+          <a href="/characters/childe">View Page ></a>
+        </div>
+        <div class="gallery img-3">
+          <img src="/assets/gif/ayaka.gif"><br><br>
+          <span class="type">Character</span><br>
+          <span class="title">Kamisato Ayaka</span><br><br>
+          <a href="/characters/ayaka">View Page ></a>
+        </div>
+      </div>
+    </div>
+    <!-- Footer -->
+    <div class="footer" style="bottom: 0;">
+      <center>
+        <img src="/assets/logo-white.png"><br>
+        <a class="link" href="/home">Home</a>
+        <a class="link" href="/legal">Legal</a>
+        <a class="link" href="mailto:2018169@smpinhwa.edu.my">Contact</a><br class="margin-top-50px">
+        <p><em>This site is made purposely for a school project, if copyright issues ensues please contact us, we will get it removed asap.</em></p>
+      </center>
+    </div>
+    <script>
+      var audio = document.getElementById("bgm");
+      audio.volume = 0.2;
+    </script>
+  </body>
+</html>
